@@ -1,0 +1,24 @@
+.checkbox input {
+  display: none
+}
+.checkboxSpan {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.checkboxSpan::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #000;
+}
+.checkboxSpan::after {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color:  #000;
+  border-radius: 50%;
+  order: 1;
+}

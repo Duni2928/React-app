@@ -1,0 +1,7 @@
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+}
+.selectedPage {
+  color: rgb(251, 2, 2)
+}

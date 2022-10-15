@@ -1,0 +1,9 @@
+.navbar {
+  grid-area: aside;
+}
+.navlink {
+  color: black;
+}
+.active {
+  color: #fff;
+}
